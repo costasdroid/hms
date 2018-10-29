@@ -1,0 +1,6 @@
+*.log
+*.aux
+*.yaml
+*.out
+*.gz
+*.fls

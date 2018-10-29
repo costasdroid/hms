@@ -1,0 +1,122 @@
+\documentclass[12pt,titlepage]{article}
+
+\usepackage{amsmath,amsthm}
+\usepackage{unicode-math}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+
+\setmainfont{Times New Roman}
+
+\usepackage{tabularx}
+
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\pagestyle{empty}
+
+\usepackage{geometry}
+ \geometry{a4paper, top=53mm, bottom=53mm, left=40mm, top=40mm}
+
+ \usepackage{graphicx}
+
+
+ \usepackage{wrapfig}
+
+ \renewcommand{\baselinestretch}{1.5}
+
+ \newtheorem{proposition}{Πρόταση}
+ \newtheorem{corollary}{Πόρισμα}
+
+
+ \usepackage{hyperref}
+%%\address{Ερυθραίας 46\\ 54351 Θεσσαλονίκη}
+
+\begin{document}
+
+\begin{titlepage}
+ \begin{center}
+  \Huge {Γράφω Μαθηματικά στον Υπολογιστή}
+
+  \vspace{1.5cm}
+  \Large {Εργαστήριο}
+ \end{center}
+ \vspace{2cm}
+ \begin{center}
+
+  \begin{tabular}{ c c }
+   \Large{Κωνσταντίνος} & \Large{Παναγιώτης}\\
+   \Large{Λόλας} & \Large{Πετρίδης} \\
+   \textit{Ερυθραίας 46,} & \textit{Δαγκλή 45,} \\
+   \textit{Θεσσαλονίκη} & \textit{Τριανδρία} \\
+   τηλ.6973380837 & τηλ.6973416317\\
+   costasmath@yahoo.gr & sch@sch.gr \\
+  \end{tabular}
+
+  \vspace{2cm}
+  \textbf{Περίληψη}
+
+  Υπάρχουν ακόμα συγγραφείς που δεν γνωρίζουν καν πώς γράφονται τα μαθηματικά στον υπολογιστή τους. Με το εργαστήριο αυτό γίνεται μία προσπάθεια να παρουσιαστούν όλοι (σχεδόν) οι τρόποι που μπορεί κάποιος να γράψει μαθηματικά με ηλεκτρονικό τρόπο.
+
+ \end{center}
+
+\end{titlepage}
+
+\section{Ο πιο συνηθισμένος}
+Ανοίγουμε το word
+Για κείμενο γράφουμε ότι θέλουμε πατώντας κουμπάκια για την μορφοποίηση του
+Για εξισώσεις, αν έχουμε το MathType κάνουμε εισαγωγή εξίσωσης, ενώ αν δεν το έχουμε κάνουμε εισαγωγή αντικειμένου Microsoft Equation Editor
+
+\section{Ο πιο γρήγορος}
+Ανοίγουμε έναν οποιονδήποτε κειμενογράφο (notepad, sublime, atom, vim...)
+Γράφουμε τον κώδικα
+
+\begin{verbatim}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathJax example</title>
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+</script>
+</head>
+<body>
+</body>
+</html>
+\end{verbatim}
+
+Και βάζουμε μέσα το <body> tag, ό,τι κείμενο θέλουμε.
+Αποθηκεύουμε το αρχείο με κατάληξη html και το ανοίγουμε με οποιονδήποτε browser.
+Από εκεί το εκτυπώνουμε ως αρχείο pdf.
+Μαγικό?
+
+\section{Ο πιο άγνωστος}
+Ανοίγουμε το LyX
+Γράφουμε κείμενο όπως ακριβώς και στο word
+Για εξισώσεις γράφουμε απλά την εξίσωση πατώντας τα κατάλληλα κουμπιά όπως και στο MathType
+Κάνουμε εξαγωγή σε ότι μορφή θέλουμε
+
+\section{Ο πιο φανταστικός}
+Γράφουμε το κείμενο με μορφή tags
+Γράφουμε τις εξισώσεις και πάλι με μορφή tags
+Τρέχουμε την κατάλληλη εντολή από τερματικό για να μετατρέψει το κείμενο σε ότι μορφή αντιστοιχεί.
+
+\begin{thebibliography}{9}
+ \bibitem{fysikiB}
+ \textit{Φυσική Β Γυμνασίου}.
+ Ινστιτούτο Επιστήμης Υπολογιστών και Εδόσεων "Διόφαντος", ISBN: 978-960-06-2731-2, σελ. 65-66.
+
+ \bibitem{fysikiG}
+ \textit{Φυσική Γ Λυκείου}.
+ Ινστιτούτο Επιστήμης Υπολογιστών και Εδόσεων "Διόφαντος", ISBN: 978-960-06-2432-8, σελ. 90-101.
+
+ \bibitem{Halliday1}
+ \textit{Fundamentals Of Physics}, Halliday, Resnick, Walker, 9th Edition, σελ. 361.
+ %\url{(https://archive.org/details/FundamentalsOfPhysicsHallidayResnickWalker)}
+
+ \bibitem{Feynman1}
+ \textit{The Feynman Lectures on Physics}, Feynman, Leighton, Sands, vol. 2, ch. 40.
+ %\url{(http://www.feynmanlectures.caltech.edu/II_40.html)}
+
+\end{thebibliography}
+\end{document}

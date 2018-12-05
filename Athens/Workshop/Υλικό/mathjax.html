@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MathJax TeX Test Page</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+
+<body>
+  <h1> Δευτεροβάθμιες εξισώσεις</h1>
+
+    Ένας εύκολος τρόπος να λυθεί μία εξίσωση
+      $$αx^2+βx+γ=0\text{, }α\ne 0$$
+      είναι να υπολογίσουμε την διακρίνουσα $Δ=β^2-4αγ$. Αν
+    <ul>
+      <li> $Δ>0$ η εξίσωση έχει δύο πραγματικές ρίζες στο $\mathbb{R}$ τις $x_{1,2}=\frac{-β\pm \sqrt{Δ}}{2α}$</li>
+      <li> $Δ=0$ η εξίσωση έχει μία διπλή πραγματική ρίζα την $x=-\frac{β}{2α}$</li>
+      <li> $Δ\lt 0$ η εξίσωση έχει δύο μιγαδικές ρίζες τις $z_{1,2}=\frac{-β\pm i\sqrt{-Δ}}{2α}$</li>
+    </ul>
+
+  <h2> Γραφική παράσταση</h2>
+  Η γραφική παράσταση της συνάρτησης $f(x)=x^2-1$ είναι η </br>
+
+  <img src="plot.png">
+</body>
+
+</html>

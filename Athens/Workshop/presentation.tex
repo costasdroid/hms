@@ -1,0 +1,228 @@
+\documentclass[greek]{beamer}
+%\usepackage{fontspec}
+%\newtheorem{definition}{Ορισμός}
+\setbeamercovered{transparent}
+\usepackage{amsmath,amsthm}
+\usepackage{unicode-math}
+\usepackage{xltxtra}
+\usepackage{graphicx}
+\usetheme{Warsaw}
+\usecolortheme{seahorse}
+\usepackage{hyperref}
+\usepackage{ulem}
+\usepackage{xgreek}
+\usepackage{pgfpages}
+%\setbeameroption{show notes on second screen}
+%\setbeameroption{show only notes}
+
+\setsansfont{Times New Roman}
+\title{Γράφω Μαθηματικά στον Υπολογιστή}
+\author[Λόλας, Πετρίδης]{Κ. Λόλας\inst{1} \and Π. Πετρίδης\inst{2}}
+\institute[]
+{
+  \inst{1}%
+  10ο ΓΕΛ ΘΕΣ/ΝΙΚΗΣ (ΠΕ03)
+  \and
+  \inst{2}%
+  ΓΕΛ ΧΑΛΑΣΤΡΑΣ (ΠΕ04.01)
+}
+\date{Αθήνα, Δεκέμβριος 2018}
+
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Εισαγωγή}
+\begin{frame}{Γνωριμία}
+  \begin{itemize}
+    \item Word - MathType
+      \begin{itemize}
+        \item Βιβλίο Άλγεβρας ΑΠΘ ~ 2001
+        \item Εργασίες για φοιτητές 2000 - σήμερα
+        \item Δημοσιεύσεις στην Μαθηματική Εταιρεία
+      \end{itemize}
+    \item Scientific Workplace
+      \begin{itemize}
+        \item Τράπεζα Ασκήσεων ~ 2001
+      \end{itemize}
+    \item MathJax
+      \begin{itemize}
+        \item Blogs, CMSs 2015 - σήμερα
+      \end{itemize}
+    \item \LaTeX
+      \begin{itemize}
+        \item Όλα τα αρχεία 2010 - σήμερα
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\subsection{Περί}
+\begin{frame}{Καλύτερο?}
+  \begin{center}
+    \begin{block}{}
+      \begin{center}Δεν υπάρχει ΤΟ καλύτερο!\end{center}
+    \end{block}
+  \end{center}
+  \note{Στο βιβλίο της Β Γυμνασίου υπάρχει ο ορισμός... \\ Δεν αφήνει περιθώρια για ερμηνεία...}
+\end{frame}
+
+\subsection{Κατηγορίες}
+\begin{frame}{Κατηγορίες}
+  % \begin{figure}
+  %   \includegraphics[scale=0.2]{}
+  % \end{figure}
+  \begin{itemize}
+    \item<1> Τύπος Λογισμικού
+    \only<1>{
+      \begin{itemize}
+        \item Ανοιχτό
+        \item Κλειστό
+      \end{itemize}
+      }
+    \item<2> Ελεύθερο
+    \item<3> Τύπος Αρχείου
+      \only<3>{
+        \begin{itemize}
+          \item Κωδικοποιημένο
+          \item Επεξεργάσιμο
+        \end{itemize}
+        }
+    \item<4> Περιβάλλον
+      \only<4>{
+        \begin{itemize}
+          \item Κειμενογράφος
+          \item WYSIWYG
+        \end{itemize}
+        }
+    \item<5> Συνεργατικό
+      \only<5>{
+        \begin{itemize}
+          \item Στατικό
+          \item Επεξεργάσιμο
+        \end{itemize}
+        }
+    \item<6> Τύπος Τελικής Μορφής
+      \only<6>{
+        \begin{itemize}
+          \item pdf, ps ...
+          \item ίδιο με το αρχικό
+        \end{itemize}
+        }
+  \end{itemize}
+  \note{Διαισθητικά η πίεση είναι μονόμετρο... \\ Ένα βαρόμετρο τοίχου}
+\end{frame}
+
+\subsection{Ανάλυση}
+\begin{frame}{Word - MathType}
+  \begin{itemize}
+    \item Κλειστό
+    \item Κόστος 299 Word \& 39,95 MathType (4/12/2018) ή όχι
+    \item Κωδικοποιημένο αρχείο (μερικώς)
+    \item WYSIWYG
+    \item Στατικό
+    \item Ίδιο με το αρχικό
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Word - MathType}
+  \begin{itemize}
+    \item Υπέρ
+      \begin{itemize}
+        \item<2-> Σούπερ διαδεδομένο
+        \item<3-> WYSIWYG
+        \item<4-> Κουμπάκια
+      \end{itemize}
+    \item Κατά
+      \begin{itemize}
+        \item<5-> Κόστος
+        \item<6-> Συμβατότητα
+        \item<7-> Bugs
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{MathJax}
+  \begin{itemize}
+    \item Apache License 2.0
+    \item δωρεάν
+    \item αρχείο html
+    \item οποιοσδήποτε κειμενογράφος
+    \item συνεργατικό
+    \item ίδιο με το αρχικό
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{MathJax}
+  \begin{itemize}
+    \item Υπέρ
+      \begin{itemize}
+        \item<2-> Γρήγορη δημιουργία
+        \item<3-> Δεν απαιτείται εγκατάσταση
+        \item<4-> Έτοιμη ιστοσελίδα
+        \item<5-> Ανοίγει παντού
+      \end{itemize}
+    \item Κατά
+      \begin{itemize}
+        \item<6-> MathJax + HTML
+        \item<7-> Μία τουλάχιστον φορά σύνδεση internet
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{LyX}
+  \begin{itemize}
+    \item GNU General Public License, version 2
+    \item δωρεάν
+    \item αρχείο κειμένου
+    \item προβολή μόνο με Lyx / επεξεργασία οπουδήποτε
+    \item τοπικό
+    \item ίδιο με το αρχικό
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Lyx}
+  \begin{itemize}
+    \item Υπέρ
+      \begin{itemize}
+        \item<2-> Πλήρης υποστήριξη \LaTeX
+        \item<3-> Πλήρης παλέτα μαθηματικών
+        \item<4-> WYSIWYM
+      \end{itemize}
+    \item Κατά
+      \begin{itemize}
+        \item<6-> Ελληνικά
+        \item<7-> Πολλαπλές οθόνες
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\section{Υπόλοιπα}
+\begin{frame}{}
+  \begin{block}{Παραδοχή}
+    \begin{itemize}
+      \item Δεν υπάρχει τριβή με τα τοιχώματα
+      \item Υγρό ασυμπίεστο
+    \end{itemize}
+  \end{block}
+  \begin{gather*}
+   F=ma \Rightarrow -Adp=ρV\frac{dv}{dt} \\
+   -Adp=ρAdx\frac{dv}{dt} \Rightarrow -dp=ρv dv \\
+   -\int_{p_1}^{p_2}dp=\int_{v_1}^{v_2}{ρv}dv \Rightarrow  p_2-p_1=\frac{1}{2}ρ(v_2^2-v_1^2) \\
+   \frac{1}{2}ρv^2+p=c
+  \end{gather*}
+\end{frame}
+
+\begin{frame}{Πίεση}
+  \begin{gather*}
+    p=\frac{\vec{F}}{\vec{A}}=\frac{\vec{F}\vec{A}}{\left| A \right|^2}
+  \end{gather*}
+\end{frame}
+
+\begin{frame}[plain,c]
+  \begin{center}
+    \Huge Σας Ευχαριστούμε...
+  \end{center}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,1643 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /home/costas/git/hms/Lefkada/
+\textclass article
+\begin_preamble
+
+
+\usepackage{amsthm}\usepackage{unicode-math}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+
+
+
+
+\usepackage{tabularx}
+
+
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+
+
+
+
+ 
+
+
+ \usepackage{wrapfig}
+
+
+ \renewcommand{\baselinestretch}{1.5}
+
+ \newtheorem{proposition}{Πρόταση}\newtheorem{corollary}{Πόρισμα}
+
+
+ %%\address{Ερυθραίας 46\\ 54351 Θεσσαλονίκη}
+
+
+\end_preamble
+\options titlepage
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "Times New Roman"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Η Πίεση και τα Μαθηματικά της
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+
+\begin_inset VSpace 1.5cm
+\end_inset
+
+ 
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Μαθηματικά και οι άλλες επιστήμες στην εκπαίδευση
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+
+\begin_inset VSpace 2cm
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="6" columns="7">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Κωνσταντίνος
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Παναγιώτης
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Μάριος
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Λόλας
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Πετρίδης
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Ελευθεριάδης
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\shape italic
+Ερυθραίας 46,
+\shape default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\shape italic
+Δαγκλή 45,
+\shape default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\shape italic
+Αργοναυτών 41
+\shape default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\shape italic
+Θεσσαλονίκη
+\shape default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\shape italic
+Τριανδρία
+\shape default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+
+\shape italic
+Καλαμαριά
+\shape default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+τηλ.6973380837 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+τηλ.6973416317 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+τηλ.6937201887 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+costasmath@yahoo.gr 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+sch@sch.gr 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size larger
+marioelef@gmail.com 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+
+\begin_inset VSpace 2cm
+\end_inset
+
+ 
+\series bold
+Περίληψη
+\series default
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Αν υπήρχε η διαίρεση διανυσμάτων, η πίεση ορισμένη ως 
+\begin_inset Formula $p=\vec{F}/\vec{A}$
+\end_inset
+
+ θα ήταν μία "εύκολη" έννοια. Εκεί ακριβώς μπλέκονται τα πράγματα ως προς την φύση της πίεσης ώντας διανυσματικό ή μη μέγεθος και κυρίως πώς μπορεί να μελετηθεί και να ερμηνευτεί από την μαθηματική της σκοπιά με σκοπό να γίνει πλήρως κατανοητή από μαθητές και όχι μόνο.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Η πίεση στη Φυσική
+\end_layout
+
+\begin_layout Standard
+Στο σχολικό βιβλίο Φυσικής της Β Γυμνασίου
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "fysikiB"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, η πίεση ορίζεται ως "
+\shape italic
+το πηλίκο της δύναμης που ασκείται κάθετα σε μια επιφάνεια προς το εμβαδόν της επιφάνειας αυτής.
+\shape default
+", δηλαδή 
+\begin_inset Formula \begin{equation} \label{eq:1}
+ p=\frac{\vec{F}}{A}
+\end{equation}
+\end_inset
+
+Στην επόμενη παράγραφο ξεκαθαρίζει λέγοντας ότι η πίεση "
+\shape italic
+δεν είναι διανυσματικό μέγεθος
+\shape default
+", αλλά αμέσως μετά στην επόμενη πρόταση, αναφέρει ότι "
+\shape italic
+εκφράζει την δύναμη που ασκείται κάθετα στη μονάδα επιφάνειας
+\shape default
+". Έχουμε λοιπόν από την μία την δύναμη, η οποία είναι διάνυσμα και από την άλλη την επιφάνεια. Αυτό προκαλεί μία σύγχηση ως προς τη φύση της πίεσης ως μέγεθος διανυσματικό ή μονόμετρο. Εκεί βέβαια σταματάει και η συζήτηση στην τάξη αφού οι μαθητές δεν φαίνεται να αναρωτιούνται τι ακριβώς συμβαίνει.
+\end_layout
+
+\begin_layout Standard
+Βέβαια σε έναν μαθητή της Β Γυμνασίου δεν μπορούμε να εξηγήσουμε όλες τις πράξεις των διανυσμάτων, γι' αυτό και το παρόν άρθρο αναφέρεται σε μαθητές τουλάχιστον Β Λυκείου. Στην Β Λυκείου, οι εν λόγω μαθητές στα Μαθηματικά προσανατολισμού διδάσκονται πράξεις μεταξύ διανυσμάτων και πιο συγκεκριμένα την πρόσθεση, την αφαίρεση, το βαθμωτό γινόμενο με πραγματικό αριθμό και το εσωτερικό γινόμενο.
+\end_layout
+
+\begin_layout Standard
+Έτσι λοιπόν στην Φυσική Γ Λυκείου
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "fysikiG"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ με την νέα ύλη στην οποία προστέθηκαν και τα ρευστά λογικά θα πρέπει να έχει ξεκαθαριστεί πλήρως η έννοια της πίεσης.
+\end_layout
+
+\begin_layout Section
+Διαισθητική Προσέγγιση
+\end_layout
+
+\begin_layout Standard
+Αν βυθίσουμε ένα μανόμετρο σε υγρό σε συγκεκριμένο βάθος, θα διαπιστώσουμε ότι περιστρέφοντας το, η πίεση δεν μεταβάλεται. Έτσι η λογική επιβάλει το συμπέρασμα ότι η πίεση δεν έχει κατεύθυνση, συνεπώς είναι μονόμετρο μέγεθος
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "Halliday1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Μαθηματική Προσέγγιση
+\end_layout
+
+\begin_layout Standard
+Αν θεωρήσουμε μόνο την εξίσωση (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+
+\end_inset
+
+), η πίεση θα έπρεπε να είναι διανυσματικό μέγεθος, αφού 
+\begin_inset Formula \begin{equation} \label{eq:4}
+ p=\vec{F}\cdot\frac{1}{A}
+\end{equation}
+\end_inset
+
+και ο βαθμωτός πολλαπλασιασμός ως γνωστόν ορίζεται ως 
+\begin_inset Formula $\mathbb{R} \times V \to V$
+\end_inset
+
+. Το λάθος στον τύπο (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+
+\end_inset
+
+) είναι ότι η επιφάνεια δεν είναι μονόμετρο μέγεθος, αλλά διανυσματικό. Ο λόγος είναι ότι θέλουμε τη δύναμη που ασκείται κάθετα στην επιφάνεια, άρα δανειζόμαστε το κάθετο διάνυσμα 
+\begin_inset Formula $\vec{n}$
+\end_inset
+
+ σε αυτή. Με άλλα λόγια 
+\begin_inset Formula $\vec{Α}=\vec{n}Α$
+\end_inset
+
+ και ο τύπος στην πραγματικότητα είναι ο: 
+\begin_inset Formula \begin{equation} \label{eq:2}
+ p=\frac{\vec{F}}{\vec{A}}
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Πλέον είναι φανερό το πρόβλημα. Ίσως είναι το πρώτο μέγεθος το οποίο ορίζεται με φυσικό τρόπο ως πηλίκο δύο διανυσμάτων. Το εύκολο θα ήταν αν το παράγωγο μέγεθος ήταν η δύναμη 
+\begin_inset Formula $\vec{F}$
+\end_inset
+
+, όπου τότε: 
+\begin_inset Formula \begin{equation} \label{eq:3}
+ \vec{F}=p\cdot \vec{A}
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Η πίεση έτσι δεν μπορεί να είναι τίποτα διαφορετικό από έναν πραγματικό αριθμό και η εξίσωση (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3"
+
+\end_inset
+
+) είναι απλός βαθμωτός πολλαπλασιασμός. Η προηγούμενη εξίσωση εξηγεί πλήρως το μέτρο και την κατεύθυνση της δύναμης 
+\begin_inset Formula $\vec{F}$
+\end_inset
+
+ που ασκείται σε τοίχωμα αν από την μεριά του υλικού η πίεση είναι 
+\begin_inset Formula $p$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Η προηγούμενη παρατήρηση βασικά δικαιολογεί μάλλον και το γεγονός ότι η πίεση δεν ορίστηκε απλά ως "
+\shape italic
+το πηλίκο του 
+\series bold
+μέτρου μίας κάθετης δύναμης
+\series default
+ σε μία επιφάνεια ως προς το εμβαδό της επιφάνειας αυτής
+\shape default
+". Αυτός ο ορισμός ενώ δικαιολογεί πλήρως την φύση της πίεσης ως μονόμετρο μέγεθος, του λείπει το φυσικό αποτέλεσμα όπως αυτό εκφράζεται από την εξίσωση (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Μια πιο Μαθηματική Προσέγγιση
+\end_layout
+
+\begin_layout Standard
+Ενώ φαίνεται να έχει εγκαταληφθεί η προσέγγιση της πίεσης ως πηλίκο διανυσμάτων από εκπαιδευτικούς, ίσως θα ήταν καλό να οριστεί κάτι που τουλάχιστον θα εκφράζει αυτό το πηλίκο και παράλληλα θα είναι και κατανοητό από μαθητές χωρίς περαιτέρω γνώσεις. Έχουμε λοιπόν διαδοχικά: 
+\begin_inset Formula \begin{equation} \label{eq:5}
+ p=\frac{\vec{F}}{\vec{A}} \Rightarrow \vec{F}=p\cdot \vec{A} \Rightarrow \vec{F}\cdot \vec{A}=p\cdot (\vec{A}\cdot \vec{A}) \Rightarrow \vec{F}\cdot \vec{A}= p\cdot\left| \vec{A} \right|^2
+\end{equation}
+\end_inset
+
+και έτσι θα ισχύει 
+\begin_inset Formula \begin{equation} \label{eq:6}
+ p=\frac{\vec{F}}{\vec{A}}=\frac{\vec{F}\cdot\vec{A}}{\left| \vec{A} \right|^2}
+\end{equation}
+\end_inset
+
+Η εξίσωση (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:6"
+
+\end_inset
+
+) ορίζει την διαίρεση δύο διανυσμάτων ως 
+\begin_inset Formula \begin{equation} \label{eq:7}
+ V\times V^* \to R \text{,}\quad \frac{\vec{u}}{\vec{v}}=\frac{\vec{u} \cdot \vec{v}}{|\vec{v}|^2}
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Έτσι, και διατηρείται η έννοια της δύναμης ως διάνυσμα αλλά και μπορούμε να ορίσουμε με μαθηματικό τρόπο, εντός διδακτέας ύλης, την πίεση ως βαθμωτό πλέον μέγεθος.
+\end_layout
+
+\begin_layout Section
+Ιδιότητες
+\end_layout
+
+\begin_layout Standard
+Εδώ θα πρέπει να ξεκαθαριστεί ότι η διαίρεση όπως ορίστηκε δεν έχει να κάνει σε τίποτα με την κοινή διαίρεση. Δεν μπορεί να οριστεί ουδέτερο διάνυσμα στον εσωτερικό πολλαπλασιασμό, συνεπώς δεν έχει νόημα να μιλήσουμε για αντίστροφο διάνυσμα. Από την άλλη 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{proposition}
+\end_layout
+
+\end_inset
+
+ Η διαίρεση διανυσμάτων επιμερίζεται από τα αριστερά ως προς την πρόσθεση διανυσμάτων 
+\begin_inset Formula \begin{equation} \label{eq:10}
+  \frac{\vec{u}+\vec{v}}{\vec{w}}=\frac{\vec{u}}{\vec{w}}+\frac{\vec{v}}{\vec{w}}
+ \end{equation}
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{proposition}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+ Για κάθε 
+\begin_inset Formula $(\vec{u},\vec{v},\vec{w})\in (V,V,V^*)$
+\end_inset
+
+ έχουμε 
+\begin_inset Formula \begin{equation*} \label{eq:9}
+  \frac{\vec{u}+\vec{v}}{\vec{w}}=\frac{(\vec{u}+\vec{v})\vec{w}}{|\vec{w}|^2}=\frac{\vec{u}\cdot\vec{w}}{|\vec{w}|^2}+\frac{\vec{v}\cdot\vec{w}}{\left|\vec{w}\right|^2} = \frac{\vec{u}}{\vec{w}}+\frac{\vec{v}}{\vec{w}}
+ \end{equation*}
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+ Με την ίδια ευκολία αποδεικνύεται και ότι: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{proposition}
+\end_layout
+
+\end_inset
+
+ Για την διαίρεση διανυσμάτων ισχύει: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+refstepcounter{equation}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "eq:11"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\begin_inset Formula $\displaystyle \frac{a\vec{u}}{\vec{v}}=a\frac{\vec{u}}{\vec{v}}$
+\end_inset
+
+, 
+\begin_inset Formula $a\in\mathbb{R}$
+\end_inset
+
+,
+\begin_inset Formula $(\vec{u}$
+\end_inset
+
+,
+\begin_inset Formula $\vec{v})\in V\times V^*$
+\end_inset
+
+, 
+\begin_inset space \hfill{}
+
+\end_inset
+
+
+\family default
+
+\series default
+
+\shape default
+(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+arabic{equation}
+\end_layout
+
+\end_inset
+
+) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+refstepcounter{equation}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "eq:12"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\begin_inset Formula $\displaystyle \frac{\vec{u}}{\vec{u}}=1$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{u}\in V^*$
+\end_inset
+
+ 
+\begin_inset space \hfill{}
+
+\end_inset
+
+
+\family default
+
+\series default
+
+\shape default
+(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+arabic{equation}
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{proposition}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+ Έχουμε: 
+\end_layout
+
+\begin_layout Enumerate
+
+\begin_inset Formula $\displaystyle \frac{a\vec{u}}{\vec{v}}=\frac{(a\vec{u})\cdot\vec{v}}{|\vec{v}|^2}=\frac{a(\vec{u}\cdot\vec{v})}{|\vec{v}|^2}=a\frac{\vec{u}}{\vec{v}}$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Enumerate
+
+\begin_inset Formula $\displaystyle \frac{\vec{u}}{\vec{u}}=\frac{\vec{u}\cdot\vec{u}}{|\vec{u}|^2}=1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+ Η προσεταιριστική και η αντιμεταθετική ιδιότητα προφανώς και δεν ισχύουν αλλά δεν έχουν ούτε και φυσική σημασία ώστε να αξίζει να μελετηθούν. Η φυσική σημασία της εξίσωσης (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:11"
+
+\end_inset
+
+) είναι ότι οι δυνάμεις που δρουν σε μία επιφάνεια παράγουν πίεση όσο και οι επιμέρους πιέσεις της κάθε μίας δύναμης. Από την άλλη η φυσική σημασία της (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:12"
+
+\end_inset
+
+) είναι ότι η πίεση είναι ίση με 
+\begin_inset Formula $1$
+\end_inset
+
+ μονάδα, όταν το μέτρο της δύναμης είναι ίσο με το εμβαδό της επιφάνειας.
+\end_layout
+
+\begin_layout Section
+Γενίκευση Πίεσης
+\end_layout
+
+\begin_layout Standard
+Μέχρι στιγμής θεωρούσαμε ότι η δύναμη που ασκείται ήταν το αίτιο και η πίεση το αποτέλεσμα. Υπάρχουν όμως περιπτώσεις που απλά η δύναμη υφίσταται και είναι αδύνατο να την μετρήσουμε. Από αυτές τις περιπτώσεις ξεχωρίζουν οι υδροστατική, ατμοσφαιρική και η πίεση στα ρευστά.
+\end_layout
+
+\begin_layout Standard
+Ας θεωρήσουμε έναν όγκο στο εσωτερικό ενός αερίου ή υγρού. Από εδώ και στο εξής θα θεωρούμε αυτόν τον όγκο ως 
+\shape italic
+βυθισμένο σώμα
+\shape default
+ στο υλικό το οποίο βρίσκεται. Στις πλευρές αυτού του σώματος ασκούνται πιέσεις τις οποίες και θα υπολογίσουμε. Η πίεση μπορεί να δειχθεί ότι είναι ανεξάρτητη της επιφάνειας. Για την απόδειξη ας θεωρούμε το παρακάτω πρίσμα με γωνία κεκλιμένου επιπέδου 
+\begin_inset Formula $θ$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename Λευκάδα1.png
+	width 40text%
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Το πρίσμα ισοροπεί, άρα θα ισχύει 
+\begin_inset Formula \[F_1 cosθ = F_3 \text{ και } F_1 sinθ = F_3\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Αντίστοιχα λοιπόν θα ισχύει 
+\begin_inset Formula $p_1 S_1 cosθ = p_3 S_3 \Rightarrow p_1=p_3$
+\end_inset
+
+ και 
+\begin_inset Formula $p_1 S_1 sinθ = p_2 S_2 \Rightarrow p_1=p_2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Αν μικρύνουμε απείρως τις επιφάνειες θα μπορούμε να ορίσουμε την πίεση σε σημείο. Από τα προηγούμενα συνεπάγεται ότι η πίεση σε σημείο είναι ανεξάρτητη της επιφάνειας που περιέχει αυτό το σημείο
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "Feynman1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Υδροστατική πίεση
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename Λευκάδα2.png
+	width 30text%
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ας είναι ένας στοιχειώδης όγκος υγρού. Ο όγκος βρίσκεται σε ισορροπία, άρα όλες οι δυνάμεις που ασκούνται πάνω του έχουν συνισταμένη μηδέν. Στον οριζόντιο άξονα 
+\begin_inset Formula $y$
+\end_inset
+
+ θα ισχύει 
+\begin_inset Formula \begin{equation*}
+ \sum F_{y} = 0 \Rightarrow F_{y1}=F_{y2} \Rightarrow p_{y1}d{\vec{A_y}}=p_{y2}d{\vec{A_y}} \Rightarrow p_{y1}=p_{y2}.
+\end{equation*}
+\end_inset
+
+Έτσι η πίεση δεν μεταβάλεται κατά τον οριζόντιο άξονα 
+\begin_inset Formula $y$
+\end_inset
+
+. Όμοια δείχνεται ότι 
+\begin_inset Formula $p_{x1}=p_{x2}$
+\end_inset
+
+. Στον κατακόρυφο άξονα όμως τα πράγματα είναι διαφορετικά. Το βάρος του στοιχειώδους όγκου υγρού θα πρέπει να ισούται με την διαφορά των δυνάμεων χάρις τις πιέσεις στις αντίστοιχες επιφάνειες: 
+\begin_inset Formula \begin{align}
+ \sum F_{z} & = 0 \Rightarrow \nonumber \\ F_{z1}-F_{z2} &=B \Rightarrow \nonumber\\
+ \left(p_{z_0}-p_{z_0+dx} \right)dx\,dy&=\iiint_V ρ(x,y,z)g(x,y,z)\,dx\,dy\,dz \Rightarrow \refstepcounter{equation} \label{eq:15} \\
+ -dp\,dx\,dy &= ρg\iiint_V dx\,dy\,dz \Rightarrow \nonumber\\
+ -dp\,dx\,dy &= ρgdz\,dx\,dy \nonumber
+\end{align}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Η παραπάνω εξίσωση απλοποιήθηκε χάρις το ότι το υγρό θεωρείται ασυμπίεστο (
+\begin_inset Formula $ρ=c$
+\end_inset
+
+) και η επιτάχυνση της βαρύτητας είναι σταθερή σε μεταβολή ύψους 
+\begin_inset Formula $dz$
+\end_inset
+
+. Έτσι ισχύει η 
+\shape italic
+υδροστατική εξίσωση
+\shape default
+: 
+\begin_inset Formula \begin{equation} \label{eq:13}
+ \frac{dp}{dz}=-ρg
+\end{equation}
+\end_inset
+
+Με απλή ολοκλήρωση όταν 
+\begin_inset Formula $g=-G\dfrac{M_γ}{z^2}$
+\end_inset
+
+ 
+\begin_inset Formula \begin{gather*}
+ \frac{dp}{dz}=-ρg \Rightarrow p-p_0=-ρ\int_{z_1}^{z_2} g\, dz \Rightarrow p-p_0=-ρ\int_{z_1}^{z_2} -G\frac{M_γ}{z^2}\, dz \Rightarrow \\
+ p=p_0-GM_γ\left(\frac{1}{z_2}-\frac{1}{z_1}\right)=p_0+GM_γ\frac{z_2-z_1}{z_2z_1}
+\end{gather*}
+\end_inset
+
+Αν θεωρήσουμε ότι οτιδήποτε ύψος μελετάμε είναι από το κέντρο της Γης, τότε 
+\begin_inset Formula $z_2z_1\approx R_γ^2$
+\end_inset
+
+ και 
+\begin_inset Formula $z_2-z_1=h$
+\end_inset
+
+. Δηλαδή 
+\begin_inset Formula \begin{equation} \label{eq:17}
+ p=p_0+G\frac{M_γ}{R_γ^2}h=p_0+ρgh
+\end{equation}
+\end_inset
+
+από το οποίο προκύπτει ότι η υδροστατική πίεση δεν εξαρτάται από το υλικό, παρά μόνο από την πίεση στην "κάτω" επιφάνεια, το είδος του υγρού, την επιτάχυνση της βαρύτητας και το ύψος του υγρού. Με άλλα λόγια η πίεση είναι ίση σε όλα τα σημεία που βρίσκονται στο ίδιο βάθος.
+\end_layout
+
+\begin_layout Standard
+Η υδροστατική πίεση λοιπόν σε μία "κάτω" επιφάνεια προκύπτει από το βάρος του υλικού (ή των υλικών) που βρίσκονται από πάνω της. Η τελευταία πρόταση είναι ίσως παρεξηγημένη, μιας και είναι το αποτέλεσμα της υδροστατικής πίεσης και όχι ο ορισμός της. Τα σχολικά βιβλία διδάσκουν την υδροστατική πίεση ξεκινώντας ότι η "άνω" επιφάνεια δέχεται δύναμη ίση με το βάρος της στήλης του νερού που βρίσκεται από πάνω της. 
+\end_layout
+
+\begin_layout Subsection
+Ατμοσφαιρική πίεση
+\end_layout
+
+\begin_layout Standard
+Η ατμοσφαιρική πίεση μπορεί να θεωρηθεί ως επέκταση της υδροστατικής. Η πυκνότητα όμως του αέρα αλλάζει, αφού τα αέρια συμπιέζονται. Πιο συγκεκριμένα από την υδροστατική εξίσωση 
+\begin_inset Formula $dp/dz=-ρg$
+\end_inset
+
+ και από την καταστατική εξίσωση των αερίων 
+\begin_inset Formula \[pV=nRT \Rightarrow p\frac{m}{ρ}=\frac{N}{N_A}RT \Rightarrow ρ=\frac{mp}{kT}\]
+\end_inset
+
+όπου 
+\begin_inset Formula $m$
+\end_inset
+
+ η μέση μάζα ανά mole αερίου, 
+\begin_inset Formula $p$
+\end_inset
+
+ η πίεση, 
+\begin_inset Formula $k$
+\end_inset
+
+ η σταθερά του Boltzman και 
+\begin_inset Formula $T$
+\end_inset
+
+ η θερμοκρασία, προκύπτει ότι: 
+\begin_inset Formula \begin{equation*}
+ \frac{dp}{dz}=-\frac{mp}{kT}g.
+\end{equation*}
+\end_inset
+
+Μια περίπτωση που μπορεί να μελετηθεί στο σχολείο είναι όταν η θερμοκρασία κατά τον άξονα 
+\begin_inset Formula $z$
+\end_inset
+
+ παραμένει σταθερή. Θα ισχύει 
+\begin_inset Formula \begin{equation} \label{eq:16}
+ \frac{dp}{dz}=-\frac{mp}{kT}g \Rightarrow \frac{dz}{dp}=-\frac{kTg}{m}\frac{1}{p} \Rightarrow z=-\frac{kTg}{m}\ln \frac{p}{p_0} \Rightarrow p=p_0e^{-\frac{m}{kTg}z}
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Πίεση Ρευστών
+\end_layout
+
+\begin_layout Standard
+Ας θεωρήσουμε έναν οριζόντιο σωλήνα διατομής 
+\begin_inset Formula $A$
+\end_inset
+
+ που μέσα του ρέει υγρό ασυμπίεστο, χωρίς τριβές με τα τοιχώματα. Και μόνο με την χρήση του 2ου νόμου του Newton μπορεί εύκολα να αποδειχθεί ότι 
+\begin_inset Formula $ρ\frac{v^2}{2}+p=c$
+\end_inset
+
+, μία από τις περιπτώσεις που μαθαίνουν οι μαθητές στην Γ Λυκείου. Έχουμε: 
+\begin_inset Formula \begin{gather*}
+ F=ma \Rightarrow -Adp=ρV\frac{dv}{dt} \\
+ -Adp=ρAdx\frac{dv}{dt} \Rightarrow -dp=ρv dv \\
+ \frac{dp}{dv}=-ρv \Rightarrow p=-ρ\frac{v^2}{2}+c \\
+ \frac{1}{2}ρv^2+p=c
+\end{gather*}
+\end_inset
+
+Υπάρχει επίσης και η περίπτωση που ο σωλήνας δεν είναι οριζόντιος που τότε εργαζόμαστε διαφορετικά και δεν φαίνεται να υπάρχει πιο φινετσάτη απόδειξη από αυτή του σχολικού βιβλίου, 
+\begin_inset Formula \begin{gather*}
+ \frac{1}{2}ρv^2+p+ρgh=c
+\end{gather*}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "fysikiB"
+
+\end_inset
+
+ 
+\shape italic
+Φυσική Β Γυμνασίου
+\shape default
+. Ινστιτούτο Επιστήμης Υπολογιστών και Εδόσεων "Διόφαντος", ISBN: 978-960-06-2731-2, σελ. 65-66.
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "fysikiG"
+
+\end_inset
+
+ 
+\shape italic
+Φυσική Γ Λυκείου
+\shape default
+. Ινστιτούτο Επιστήμης Υπολογιστών και Εδόσεων "Διόφαντος", ISBN: 978-960-06-2432-8, σελ. 90-101.
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "Halliday1"
+
+\end_inset
+
+ 
+\shape italic
+Fundamentals Of Physics
+\shape default
+, Halliday, Resnick, Walker, 9th Edition, σελ. 361. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+url{(https://archive.org/details/FundamentalsOfPhysicsHallidayResnickWalker)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "Feynman1"
+
+\end_inset
+
+ 
+\shape italic
+The Feynman Lectures on Physics
+\shape default
+, Feynman, Leighton, Sands, vol. 2, ch. 40. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+url{(http://www.feynmanlectures.caltech.edu/II_40.html)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

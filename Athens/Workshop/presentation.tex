@@ -12,6 +12,7 @@
 \usepackage{ulem}
 \usepackage{xgreek}
 \usepackage{pgfpages}
+\usepackage{verbatim}
 %\setbeameroption{show notes on second screen}
 %\setbeameroption{show only notes}
 
@@ -181,7 +182,7 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Lyx}
+\begin{frame}{LyX}
   \begin{itemize}
     \item Υπέρ
       \begin{itemize}
@@ -224,17 +225,22 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Θέλω να νιώθω}
+\begin{frame}{Θέλω να νιώθω...}
   \begin{itemize}
     \item \LaTeX
   \end{itemize}
 \end{frame}
 
-\begin{frame}[plain,c]
+\begin{frame}[fragile,plain,c]
   \begin{center}
     \Huge Σας Ευχαριστούμε...
   \end{center}
-  $$B > \frac{1}{k}\sum_{i=1}^{k}x_k$$
+\begin{verbatim}
+  \begin{equation}
+    B > \frac{1}{k}\sum_{i=1}^{k}x_k
+  \end{equation}
+\end{verbatim}
+
 \end{frame}
 
 \end{document}

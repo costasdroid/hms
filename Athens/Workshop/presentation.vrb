@@ -1,0 +1,9 @@
+\begin{center}
+    \Huge Σας Ευχαριστούμε...
+  \end{center}
+\begin{verbatim}
+  \begin{equation}
+    B > \frac{1}{k}\sum_{i=1}^{k}x_k
+  \end{equation}
+\end{verbatim}
+
